@@ -3,6 +3,7 @@
   --secondary-color: #03acf3;
   --accent-color: #e74c3c;
   --text-color: #333;
+  --grey-color: #e6e6e6;
   --background-color: #f4f4f4;
 }
 
@@ -78,6 +79,26 @@ header nav ul a {
 .menu-open-btn,
 .menu-close-btn i {
   color: var(--background-color);
+}
+
+footer {
+  border-top: 1px solid var(--grey-color);
+  /* background-color: var(--grey-color); */
+  color: var(--text-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 1rem 0;
+}
+
+footer .social-media-handles a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0.5rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px) {
