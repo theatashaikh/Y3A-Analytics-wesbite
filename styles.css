@@ -42,7 +42,13 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
-  /* width: 100%; */
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 header .container .logo-and-menu-btns-container .logo-container {
