@@ -266,6 +266,11 @@ header .container nav ul a {
   display: flex;
   align-items: center;
   flex-direction: row;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  padding: 1rem;
+  border: 1px solid var(--grey-color);
 }
 
 #projects .container .project img {
@@ -326,7 +331,7 @@ footer {
   border: 1px solid var(--grey-color);
   color: var(--text-color);
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 1rem 5rem 1rem;
   background-color: #fff;
 }
 
