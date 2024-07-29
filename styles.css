@@ -210,8 +210,8 @@ header .container nav ul a {
 #about .container .team-members {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
+  /* justify-content: center; */
+  /* gap: 3rem; */
   margin-top: 3rem;
 }
 
